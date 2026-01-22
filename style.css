@@ -12,3 +12,9 @@ body {
 a {
 	color: yellow;
 }
+
+footer {
+	bottom: 15px;
+	position: fixed;
+	max-width: 600px;
+}
