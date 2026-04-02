@@ -1,8 +1,13 @@
---- 
-layout: main
----
-
-<div class="container">
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>arms industry wikithon</title>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<html>
+  <body>
+     <div class="container">
 	<h1>arms industry wikithon</h1>
 
 	<p>The arms industry <a href="https://en.wikipedia.org/wiki/Edit-a-thon">wikithon</a> is a monthly meeting dedicated to expanding and updating public-domain information about companies, entities and individuals involved in the global arms industry. We meet online and in person to share resources, knowledge and editing guidance.</p>
@@ -14,13 +19,16 @@ layout: main
 	<h2>blog</h2>
 
 	<ul class="myposts">
-	{% for post in site.posts limit:3 %}
-	    <li><a href="{{ post.url }}">{{ post.title}}</a>
-	    <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
+	
+	    <li><a href="/2026/03/18/wikithon-2.html">ARMS INDUSTRY WIKITHON 2</a>
+	    <span class="postDate">Mar 18, 2026</span>
 	    </li>
-	{% endfor %}
+	
 	</ul>
 
 	<footer>The arms industry wikithon is organised by fellows from the <a href="https://www.somersethouse.org.uk/somerset-house-studios/residencies-and-opportunities/n-space">n-space programme</a> at Somerset House Studios. For news and notifications of future events, please contact <a href="mailto:agnesfcameron@protonmail.com">agnes</a></footer>
 </div>
 
+
+  </body>
+</html>
