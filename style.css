@@ -12,6 +12,23 @@
 	margin: 20px;
 }
 
+.marginnote {
+    float: right;
+    clear: right;
+    margin-right: -60%;
+    width: 50%;
+    max-width: 300px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.2;
+    vertical-align: baseline;
+    position: relative;
+/*    height: 300px;
+    width: 300px;
+    background-color: yellow;*/
+}
+
 
 body {
 	font-family: Helvetica;
