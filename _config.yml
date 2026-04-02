@@ -2,3 +2,5 @@ name: Arms Industry Wikithon
 markdown: kramdown
 kramdown:
   input: GFM
+
+root: /
